@@ -4,6 +4,7 @@
 #include <vector>
 #include <cstdlib>
 
+#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day1\\input.txt"
 
 void swap(std::vector<int> &v, int x, int y) {
     int temp = v.at(x);
@@ -28,7 +29,7 @@ void quicksort(std::vector<int> &vec, int L, int R) {
 
 
 int main() {
-    std::ifstream InFile(R"(C:\Users\franz\CLionProjects\AdventOfCode2024\Day1\input.txt)");
+    std::ifstream InFile(INPUT_PATH);
     std::string currentLine;
     std::vector<int> list1;
     std::vector<int> list2;
