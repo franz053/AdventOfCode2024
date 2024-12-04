@@ -19,10 +19,10 @@ int main() {
     for (int i = 0; std::getline(InFile, currentLine); ++i) map.push_back(currentLine);
     InFile.close();
     for (int row = 1; row < map.size() - 1; ++row) {
-        int column = map[row].find('A', 1);
+        int column = static_cast<int>(map[row].find('A', 1));
         while (column != -1 && column <= map[0].length() - 1) {
             result += search(row, column, map);
-            column = map[row].find('A', column + 1);
+            column = static_cast<int>(map[row].find('A', column + 1));
         }
     }
     std::cout << result;

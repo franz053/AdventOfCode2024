@@ -27,9 +27,9 @@ int main() {
     std::string currentLine;
     for (int i = 0; std::getline(InFile, currentLine); ++i) map.push_back(currentLine);
     InFile.close();
-    int rows = map.size();
+    int rows = static_cast<int>(map.size());
     for (int row = 0; row < rows; ++row) {
-        int column = map[row].find('X');
+        int column = static_cast<int>(map[row].find('X'));
 
         while (column != -1) {
             for (int right = -1; right <= 1; ++right) {
@@ -38,7 +38,7 @@ int main() {
                     result += search(row, column, map, searchString, right, down);
                 }
             }
-            column = map[row].find('X', column + 1);
+            column = static_cast<int>(map[row].find('X', column + 1));
         }
     }
     std::cout << result;
