@@ -31,7 +31,7 @@ int main() {
     for (int row = 0; row < rows; ++row) {
         int column = static_cast<int>(map[row].find('X'));
 
-        while (column != -1) {
+        while (column >= 0 && column < map[0].length()) {
             for (int right = -1; right <= 1; ++right) {
                 for (int down = -1; down <= 1; ++down) {
                     if (!(right | down)) continue;
