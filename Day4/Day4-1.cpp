@@ -29,7 +29,7 @@ int main() {
     InFile.close();
     int rows = static_cast<int>(map.size());
     for (int row = 0; row < rows; ++row) {
-        int column = static_cast<int>(map[row].find('X'));
+        int column = static_cast<int>(map[row].find(searchString[0]));
 
         while (column >= 0 && column < map[0].length()) {
             for (int right = -1; right <= 1; ++right) {
@@ -38,7 +38,7 @@ int main() {
                     result += search(row, column, map, searchString, right, down);
                 }
             }
-            column = static_cast<int>(map[row].find('X', column + 1));
+            column = static_cast<int>(map[row].find(searchString[0], column + 1));
         }
     }
     std::cout << result;
