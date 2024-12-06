@@ -46,13 +46,13 @@ int main() {
     int width = static_cast<int>(lab.at(0).size()) - 1;
 
     while (guard.first < height && guard.first > 0 && guard.second < width && guard.second > 0) {
-        int nextX = guard.first + ((!(direction & 0b01)) * (0b01 - (direction & 0b10))); //Determine movement
-        int nextY = guard.second + ((direction & 0b01) * (0b01 - (direction & 0b10))); //Determine movement
-        if (lab[nextX][nextY] != blocked) {
-            guard.first = nextX;
-            guard.second = nextY;
-            result += lab[nextX][nextY]; //Add value of field
-            lab[nextX][nextY] = visited;
+        int nextY = guard.first + ((!(direction & 0b01)) * (0b01 - (direction & 0b10))); //Determine movement
+        int nextX = guard.second + ((direction & 0b01) * (0b01 - (direction & 0b10))); //Determine movement
+        if (lab[nextY][nextX] != blocked) {
+            guard.first = nextY;
+            guard.second = nextX;
+            result += lab[nextY][nextX]; //Add value of field
+            lab[nextY][nextX] = visited;
         } else {
             direction = (direction + 3) % 4; //Turn right
         }
