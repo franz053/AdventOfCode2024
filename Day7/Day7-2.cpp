@@ -10,7 +10,6 @@ typedef unsigned long long ull;
 
 using namespace std;
 
-
 bool isCalculationGood(ull x, vector<int> &numbers, ull currentValue = 0, int position = 0) {
     //Guard
     if (position == numbers.size()) {
