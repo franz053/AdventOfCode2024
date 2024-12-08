@@ -23,7 +23,6 @@ int main() {
         }
     }
 
-    int pos = 0;
     for (auto it1 = towers.begin(); it1 != towers.end(); it1++) {
         auto it2 = it1;
         for (++it2; it2 != towers.end() && it2->first == it1->first; it2++) {
