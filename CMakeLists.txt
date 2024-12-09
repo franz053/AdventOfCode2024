@@ -3,4 +3,4 @@ project(AdventOfCode2024)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(AdventOfCode2024 Day8/Day8-2.cpp Day8/input.txt)
+add_executable(AdventOfCode2024 Day9/Day9-1.cpp Day9/input.txt)
