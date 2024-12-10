@@ -2,10 +2,8 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <set>
 
 #define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day10\\input.txt"
-
 
 using namespace std;
 
