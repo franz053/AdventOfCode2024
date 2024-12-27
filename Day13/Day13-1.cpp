@@ -2,7 +2,6 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <sstream>
 
 #define INPUT_PATH "C:\\Users\\krempl\\Downloads\\AdventOfCode2024\\Day13\\input.txt"
 
