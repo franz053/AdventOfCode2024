@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day4\\input.txt"
+#define INPUT_PATH "..\\Day4\\input.txt"
 
 inline int search(int row, int column, std::vector<std::string> &map) {
     if ((map[row - 1][column - 1] + map[row + 1][column + 1]) != 160) return 0;//diagonal

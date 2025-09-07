@@ -3,7 +3,7 @@
 #include <string>
 #include <fstream>
 
-#define INPUT_PATH "C:\\Users\\krempl\\Downloads\\input.txt"
+#define INPUT_PATH "..\\Day3\\input.txt"
 
 int main(){
     std::ifstream InFile(INPUT_PATH);

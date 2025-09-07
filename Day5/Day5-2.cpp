@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <algorithm>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day5\\input.txt"
+#define INPUT_PATH "..\\Day5\\input.txt"
 
 using namespace std;
 

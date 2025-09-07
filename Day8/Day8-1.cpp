@@ -4,7 +4,7 @@
 #include <unordered_map>
 #include <set>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day8\\input.txt"
+#define INPUT_PATH "..\\Day8\\input.txt"
 
 
 using namespace std;

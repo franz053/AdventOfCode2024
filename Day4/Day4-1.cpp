@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day4\\input.txt"
+#define INPUT_PATH "..\\Day4\\input.txt"
 
 int search(int row, int column, std::vector<std::string> &map, std::string &searchString, int right = 0, int down = 0) {
     int wordPos = 0;

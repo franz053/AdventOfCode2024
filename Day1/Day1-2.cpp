@@ -3,7 +3,7 @@
 #include <sstream>
 #include <vector>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day1\\input.txt"
+#define INPUT_PATH "..\\Day1\\input.txt"
 
 
 void swap(std::vector<int> &v, int x, int y) {

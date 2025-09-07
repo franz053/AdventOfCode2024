@@ -3,7 +3,7 @@
 #include <sstream>
 #include <vector>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day2\\input.txt"
+#define INPUT_PATH "..\\Day2\\input.txt"
 
 int main() {
     std::ifstream InFile(INPUT_PATH);

@@ -4,7 +4,7 @@
 #include <vector>
 #include <sstream>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day11\\input.txt"
+#define INPUT_PATH "..\\Day11\\input.txt"
 
 typedef unsigned long long ull;
 

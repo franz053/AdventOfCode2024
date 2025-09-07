@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day9\\input.txt"
+#define INPUT_PATH "..\\Day9\\input.txt"
 
 
 using namespace std;

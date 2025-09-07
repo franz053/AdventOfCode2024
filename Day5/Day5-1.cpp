@@ -5,7 +5,7 @@
 #include <sstream>
 #include <unordered_map>
 
-#define INPUT_PATH "C:\\Users\\franz\\CLionProjects\\AdventOfCode2024\\Day5\\input.txt"
+#define INPUT_PATH "..\\Day5\\input.txt"
 
 using namespace std;
 

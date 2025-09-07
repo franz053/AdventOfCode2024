@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-#define INPUT_PATH "C:\\Users\\krempl\\Downloads\\AdventOfCode2024\\Day13\\input.txt"
+#define INPUT_PATH "..\\Day13\\input.txt"
 
 using namespace std;
 
